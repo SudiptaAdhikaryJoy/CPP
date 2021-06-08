@@ -5,14 +5,18 @@ int main()
 {
     int n;
     cin>>n;
+    int i;
 
-    for(int i=2;i<n;i++)
+    for(i=2;i<n;i++)
     {
         if(n%i==0)
         {
             cout<<"Non Prime\n"<<endl;
             break;
         }
+    }
+    if(i==n)
+    {
         cout<<"Prime"<<endl;
     }
     return 0;
