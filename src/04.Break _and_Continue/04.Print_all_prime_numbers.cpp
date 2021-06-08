@@ -7,7 +7,7 @@ int main()
 
     for(int num=a;num<=b;num++){   
         int i;
-        for( int i=2;i<num;i++){
+        for( i=2;i<num;i++){
             if(num%i==0){
                 break;
             }
