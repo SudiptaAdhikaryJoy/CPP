@@ -18,7 +18,15 @@ int main()
     case 'c':
         cout<<"Hi"<<endl;
         break;
+    case 'd':
+        cout<<"Parvez"<<endl;
+        break;
+    case 'e':
+        cout<<"Dhaka"<<endl;
+        break;
     default:
+        cout<<"i'm still learning"<<endl;
         break;
     }
+    return 0;
 }
