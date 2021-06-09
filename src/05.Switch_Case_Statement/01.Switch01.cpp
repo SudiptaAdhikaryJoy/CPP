@@ -18,4 +18,16 @@ int main()
      {
          cout<<"Kaisha Ho !"<<endl;
      }
+     else if(button=='d')
+     {
+         cout<<"Kemon acho!"<<endl;
+     }
+     else if(button=='e')
+     {
+        cout<<"Bhalo achi "<<endl;
+     }
+     else{
+         cout<<"I'm Still Learning"<<endl;
+     }
+     return 0;
 }
