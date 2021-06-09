@@ -14,7 +14,10 @@ int main()
         break;
     case 'b':
         cout<<"Namaste"<<endl;
-    
+        break;
+    case 'c':
+        cout<<"Hi"<<endl;
+        break;
     default:
         break;
     }
