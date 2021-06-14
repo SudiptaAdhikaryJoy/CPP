@@ -9,7 +9,7 @@ int main()
     {
         for(int j=1;j<=n;j++)
         {
-            if(j<n-i)
+            if(j<=n-i)
             {
                 cout<<" ";
             }
@@ -20,4 +20,5 @@ int main()
         }
     }
     cout<<endl;
+    return 0;
 }
